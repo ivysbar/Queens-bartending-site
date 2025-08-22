@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elevated Mobile Bartending</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 text-center text-white px-6">
+      <h1 class="text-5xl font-bold mb-4">Elevated Mobile Bartending</h1>
+      <p class="text-xl mb-6">Luxury Cocktails, Anywhere You Are</p>
+      <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full shadow-lg transition">Book Us Now</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <img src="https://images.unsplash.com/photo-1586201375754-0100a1d7bb67?auto=format&fit=crop&w=1000&q=80" alt="Bartending" class="rounded-2xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Us</h2>
+        <p class="text-lg mb-4">We bring the bar to you with professional mixologists, premium ingredients, and custom cocktail experiences. Whether it’s a wedding, corporate event, or private party — we elevate your celebration.</p>
+        <p class="text-lg">Our team creates unforgettable moments with stylish presentation and flavors crafted to impress.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-100 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <i class="fa-solid fa-champagne-glasses text-4xl text-amber-500 mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Private Parties</h3>
+          <p>Custom cocktails and curated drink menus tailored to your special event.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <i class="fa-solid fa-briefcase text-4xl text-amber-500 mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Corporate Events</h3>
+          <p>Elevate networking events and company celebrations with a full-service mobile bar.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <i class="fa-solid fa-heart text-4xl text-amber-500 mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Weddings</h3>
+          <p>Craft cocktails and flawless bar service for your once-in-a-lifetime day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center">Gallery</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="https://images.unsplash.com/photo-1606788075761-6a9832f9f3e8?auto=format&fit=crop&w=600&q=80" class="rounded-xl shadow-lg">
+      <img src="https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=600&q=80" class="rounded-xl shadow-lg">
+      <img src="https://images.unsplash.com/photo-1560841390-75c1cbeaaedc?auto=format&fit=crop&w=600&q=80" class="rounded-xl shadow-lg">
+      <img src="https://images.unsplash.com/photo-1510626176961-4b37d6afc1d4?auto=format&fit=crop&w=600&q=80" class="rounded-xl shadow-lg">
+      <img src="https://images.unsplash.com/photo-1541544181042-a6d4c2a4f5a0?auto=format&fit=crop&w=600&q=80" class="rounded-xl shadow-lg">
+      <img src="https://images.unsplash.com/photo-1564769662693-8513b24821f9?auto=format&fit=crop&w=600&q=80" class="rounded-xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-100 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Book Your Event</h2>
+      <p class="mb-8">Let’s create an unforgettable cocktail experience for your guests.</p>
+      <form class="grid gap-4 max-w-xl mx-auto text-left">
+        <input type="text" placeholder="Your Name" class="p-3 rounded-lg border border-gray-300 w-full">
+        <input type="email" placeholder="Your Email" class="p-3 rounded-lg border border-gray-300 w-full">
+        <input type="text" placeholder="Event Type (Wedding, Party, etc.)" class="p-3 rounded-lg border border-gray-300 w-full">
+        <textarea placeholder="Event Details" rows="4" class="p-3 rounded-lg border border-gray-300 w-full"></textarea>
+        <button class="bg-amber-500 hover:bg-amber-600 text-white py-3 rounded-lg shadow-lg transition">Submit Request</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-black text-white text-center">
+    <p>&copy; 2025 Elevated Mobile Bartending. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
